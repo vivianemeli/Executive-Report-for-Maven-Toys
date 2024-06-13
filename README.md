@@ -54,29 +54,50 @@ Executive stakeholders aim to see important KPIs and the summary of the overall 
 
 The total revenue, total cost, gross profit and YOY (year over year) growth on revenue are obtained from this table.
 
+Total Revenue
+
 ![Screenshot82](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot82.png)
 
+Total Cost
+
 ![Screenshot86](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot86.png)
+
+Gross Profit
 
 ![Screenshot83](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot83.png)
 
 To obtain the YOY growth on revenue, a common table expression was use to extract year and month and revenue from the table and a self join used to join the table to itself and YOY was calculated.
 
+
 ![Screenshot101](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot101.png)
+
+YOY Growth om revenue
 
 ![Screenshot85](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot85.png)
 
-Other KPIs obtained are total units sold, number of categories, number of products, number of cities, number of stores and total stodk at hand.
+Other KPIs obtained are total units sold, number of categories, number of products, number of cities, number of stores and total stock at hand.
+
+Total units sold
 
 ![Screenshot87](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot87.png)
 
+Number of categories
+
 ![Screenshot88](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot88.png)
+
+Number of products
 
 ![Screenshot89](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot89.png)
 
+Number of cities
+
 ![Screenshot90](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot90.png)
 
+Number of stores
+
 ![Screenshot91](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot91.png)
+
+Total Stock at hand
 
 ![Screenshot92](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot92.png)
 
@@ -84,11 +105,19 @@ Another question this analysis aims to solve is “Which locations drives the bi
 
 Maven Toys has different numbers of stores in various cities and locations, which means some places naturally bring in more money just because they have more stores. Hence, average was used instead of total profit and revenue to derive cities and locations driving the biggest revenue and profit.
 
+Toal Revenue by location
+
 ![Screenshot93](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot93.png)
+
+Total Profit by location
 
 ![Screenshot94](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot94.png)
 
+Total Revenue by cities
+
 ![Screenshot95](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot95.png)
+
+Total profits by cities
 
 ![Screenshot96](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot96.png)
 
@@ -96,7 +125,7 @@ From the analysis above, stores in airport drove more revenues and profit. Furth
 
 ![Screenshot97](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Screenshot97.png)
 
-You can interact with the full SQL code used in this work [here](https://github.com/vivianemeli/Executive-Report-for-MavenToys/blob/main/Documentation/Maven%20Toys%20sql.sql)
+You can interact with the full SQL code used in this work [here](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/MavenToyssql.sql)
 
 ## Dashboard/Report
 After completing the analysis and calculating the KPIs, the cleaned data was imported into PowerBI by connecting it to PostgreSQL, allowing to create the single-page visual dashboard.
@@ -107,7 +136,7 @@ The inventory turnover rate for each city was calculated to identify the top fiv
 
 You can interact with this report, click [here](https://app.powerbi.com/groups/me/reports/fdc4a2cc-89e0-40a2-be00-5e2c7b8b9721/5a4dd5e0413710da003a?experience=power-bi)
 
-## Key Insights
+## Key Insights ⭐
 1. Year to Date revenue for 2018 is greater that 2017.
 2. We are pretty close to the target revenue of 10 million naira which was not achieved in 2017.
 3. Stores in airport generates higher revenue and profits on an average.
@@ -116,6 +145,9 @@ You can interact with this report, click [here](https://app.powerbi.com/groups/m
 ## Recommendations
 1. --Business Expansion--: News store should be opened in top performing cities without locations in airports as locations in airport has shown to generate more revenue and profit.
 2. Also, on business expansion, discount sales or referral bonus should be offered on poor performing categories to improve sales on those categories.
-3. Seasonal sales: We’ll need more data over the years to confirm if we have seasonal sales.
+3. Seasonal sales: We’ll need more data over the years to confirm if we have seasonal sales
+
+
+Check out the article I wrote on this project [here](https://medium.com/@vivianemeli44/bc960625f876) 🙂
 
 ![Thankyou](https://github.com/vivianemeli/Executive-Report-for-Maven-Toys/blob/main/Documentation/Thankyou.png)
